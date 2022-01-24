@@ -525,9 +525,11 @@
 			frames:3,
 			tag:'img';
 			src:'https://i0.hdslb.com/bfs/album/5acff58785656193cb3d09947366d940329f10ac.jpg';
-			/*draw:function(context){
+			draw:function(context){
 				var t = Math.abs(5-this.times%10);
-				context.fillStyle = '#FFE600';
+				tag:'img';
+				src:'https://i0.hdslb.com/bfs/album/5acff58785656193cb3d09947366d940329f10ac.jpg';
+				/*context.fillStyle = '#FFE600';
 				context.beginPath();
 				context.arc(this.x,this.y,this.width/2,t*.04*Math.PI,(2-t*.04)*Math.PI,false);
 				context.lineTo(this.x,this.y);
@@ -537,8 +539,8 @@
 				context.beginPath();
 				context.arc(this.x+5,this.y-27,7,0,2*Math.PI,false);
 				context.closePath();
-				context.fill();
-			}*/
+				context.fill();*/
+			}
 		});
 		//游戏名
 		stage.createItem({
