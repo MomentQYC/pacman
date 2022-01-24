@@ -547,7 +547,7 @@
 				context.textAlign = 'center';
 				context.textBaseline = 'middle';
 				context.fillStyle = '#FFF';
-				context.fillText('Pac-Man',this.x,this.y);
+				context.fillText('Chase Whale',this.x,this.y);
 			}
 		});
 		//版权信息
@@ -559,7 +559,7 @@
 				context.textAlign = 'right';
 				context.textBaseline = 'bottom';
 				context.fillStyle = '#AAA';
-				context.fillText('© passer-by.com',this.x,this.y);
+				context.fillText('魔改：小七  请尊重原作',this.x,this.y);
 			}
 		});
 		//事件绑定
